@@ -1,0 +1,4 @@
+com\enola\demo\PrepagationService.class
+com\enola\demo\Result.class
+com\enola\demo\repo\DetailsRepository.class
+com\enola\demo\repo\HeaderRepository.class
