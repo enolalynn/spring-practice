@@ -9,6 +9,7 @@
 	<configs>
 		<config>src/main/webapp/WEB-INF/mvc-config.xml</config>
 		<config>src/main/webapp/WEB-INF/applicationContext.xml</config>
+		<config>src/main/webapp/WEB-INF/controllers.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>

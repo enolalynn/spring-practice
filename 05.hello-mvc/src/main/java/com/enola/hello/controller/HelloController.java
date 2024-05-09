@@ -16,8 +16,8 @@ public class HelloController {
 	private HelloService service;
 	
 	@GetMapping
-	public String index(Model model) {
+	public void index(Model model) {
 		model.addAttribute("message",service.getMessage());
-		return "index";
+	
 	}
 }
