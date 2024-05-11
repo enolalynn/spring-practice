@@ -29,9 +29,18 @@
 			<a href="${dateLink}">2024-05-09</a>
 		</li> 
 		<li>
-			<c:url value="/inputs/enum/Basic" var="enumLink"></c:url>
+			<c:url value="/inputs/Basic" var="enumLink"></c:url>
 			<a href="${enumLink}">Using Enum</a>
 		</li>
+		<li>
+			<c:url value="/inputs/Matrix/Western%20Shirt;s=L" var="matrixLink"></c:url>
+			<a href="${matrixLink}">Using Matrix</a>
+		</li>
+		<li>
+			<c:url value="/inputs/request?p=Jeans&w=34&l=29" var="requestLInk"></c:url>
+			<a href="${requestLInk}">Request Parameters</a>
+		</li>
+		
 	</ul>
 	
 	

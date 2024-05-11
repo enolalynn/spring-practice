@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,10 +12,18 @@
 	<h1>Mapping Demo</h1>
 	
 	<ul>
-		<li> <a  href="multi">Multi Action</a> </li>
-	</ul>
-	<ul>
-		<li> <a  href="inputs">User Inputs</a> </li>
+		<li>
+			<c:url value='/multi' var="multi"></c:url> 
+			<a  href="${multi}">Multi Action</a> 
+		</li>
+		<li> 
+			<c:url value='/inputs' var="inputs"></c:url>
+			<a  href="inputs">User Inputs</a> 
+		</li>
+		<li>
+			<c:url value='/course' var="course"></c:url> 
+			<a  href="${course}">Return Type Demo</a> 
+		</li>
 	</ul>
 	
 	
